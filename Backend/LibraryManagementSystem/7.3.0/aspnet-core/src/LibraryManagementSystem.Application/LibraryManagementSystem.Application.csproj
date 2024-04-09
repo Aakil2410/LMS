@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>LibraryManagementSystem.Application</AssemblyName>
+    <PackageId>LibraryManagementSystem.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>LibraryManagementSystem</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Services\Authors\**" />
+    <Compile Remove="Services\Categories\**" />
+    <Compile Remove="Services\Inventories\**" />
+    <EmbeddedResource Remove="Services\Authors\**" />
+    <EmbeddedResource Remove="Services\Categories\**" />
+    <EmbeddedResource Remove="Services\Inventories\**" />
+    <None Remove="Services\Authors\**" />
+    <None Remove="Services\Categories\**" />
+    <None Remove="Services\Inventories\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryManagementSystem.Core\LibraryManagementSystem.Core.csproj" />
+  </ItemGroup>
+</Project>
