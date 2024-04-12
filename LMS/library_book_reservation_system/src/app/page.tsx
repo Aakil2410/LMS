@@ -43,16 +43,6 @@ const Home = () => {
         <br/>
         <br/>
         <br/>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eaque consequuntur necessitatibus ipsa ullam unde obcaecati voluptate, placeat beatae quia possimus reiciendis quam tenetur nemo at iure aliquam totam repellat!
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eaque consequuntur necessitatibus ipsa ullam unde obcaecati voluptate, placeat beatae quia possimus reiciendis quam tenetur nemo at iure aliquam totam repellat!
-        </h1>
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eaque consequuntur necessitatibus ipsa ullam unde obcaecati voluptate, placeat beatae quia possimus reiciendis quam tenetur nemo at iure aliquam totam repellat!
-        </h1>
-        <h1>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eaque consequuntur necessitatibus ipsa ullam unde obcaecati voluptate, placeat beatae quia possimus reiciendis quam tenetur nemo at iure aliquam totam repellat!
-        </h1>
       </main>
 
 
